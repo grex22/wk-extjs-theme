@@ -1,0 +1,56 @@
+$buttonbg: lighten(#157fcc,10);
+$confirmbuttonbg: #62ac26;
+$warningbuttonbg: #ee293c;
+$disabledbuttonbg: #adabab;
+
+$button-large-font-family: $base-font;
+$button-large-font-weight: normal;
+$button-large-font-size: 13px;
+$button-large-text-padding: 20px;
+
+$button-medium-font-family: $base-font;
+$button-medium-font-weight: normal;
+$button-medium-font-size: 12px;
+$button-medium-text-padding: 15px;
+
+$button-small-font-family: $base-font;
+$button-small-font-weight: normal;
+$button-small-font-weight: 11px;
+$button-small-text-padding: 10px;
+
+$button-large-border-width: 0px;
+$button-medium-border-width: 0px;
+$button-small-border-width: 0px;
+
+$button-small-border-radius: 2px 2px 2px 2px;
+$button-medium-border-radius: 2px 2px 2px 2px;
+$button-large-border-radius: 2px 2px 2px 2px;
+
+$button-default-background-gradient: $buttonbg;
+$button-default-background-gradient-over: $buttonbg;
+$button-default-background-gradient-disabled: $buttonbg;
+$button-default-background-gradient-disabled-over: $buttonbg;
+$button-default-background-color: $buttonbg;
+$button-default-background-color-over: darken($buttonbg,2);
+
+.wk-button-confirm{
+  background-color: $confirmbuttonbg !important;
+  &:hover{
+    background-color: darken($confirmbuttonbg,3);
+  }
+}
+.wk-button-warning{
+  background-color: $warningbuttonbg !important;
+  &:hover{
+    background-color: darken($warningbuttonbg,3) !important;
+  }
+}
+.wk-button-disabled{
+  background-color: $disabledbuttonbg !important;
+  &:hover{
+    background-color: darken($disabledbuttonbg,3);
+  }
+}
+
+
+

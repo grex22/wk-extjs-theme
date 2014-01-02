@@ -1,0 +1,38 @@
+$tab-background-gradient: white;
+$tab-background-color-active: white;
+
+$tabbar-plain-padding: 4px 0 0 0;
+$tabbar-strip-height: 0px;
+
+$tab-font-family: $base-font;
+$tab-font-weight: normal;
+
+$tab-color: #888888;
+$tab-color-active: $blue;
+$tab-color-disabled: #eeeeee;
+$tab-color-over: $blue;
+
+$tab-border-radius: 0px 0px 0px 0px;
+$tab-border-color: #cecece !important;
+$tab-border-width: 1px 1px 1px 0px !important;
+
+$tab-margin:0px;
+$tab-padding: 10px 25px;
+
+$tab-base-color: white;
+$tab-base-color-active: white;
+$tab-base-color-over: #f7f7f7;
+
+$panel-body-border-color: #cecece;
+$panel-body-border-width: 1px 0px 0px 0px;
+$panel-body-border-style: solid;
+$panel-border-width: 1px;
+
+.x-panel-body{
+  font-family:$base-font;
+}
+
+div.x-top.x-tab-top-active{
+  border-bottom-color:white!important;
+  border-left:2px $blue solid!important;
+}
