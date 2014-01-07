@@ -28,29 +28,29 @@
 /* including package numenor */
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600);
 /* line 36, ../../sass/var/button/Button.scss */
-.wk-button-confirm {
+.button-confirm {
   background-color: #62ac26 !important;
 }
 /* line 38, ../../sass/var/button/Button.scss */
-.wk-button-confirm:hover {
+.button-confirm:hover {
   background-color: #5b9f23;
 }
 
 /* line 42, ../../sass/var/button/Button.scss */
-.wk-button-warning {
+.button-warning {
   background-color: #ee293c !important;
 }
 /* line 44, ../../sass/var/button/Button.scss */
-.wk-button-warning:hover {
+.button-warning:hover {
   background-color: #ed1b2f !important;
 }
 
 /* line 48, ../../sass/var/button/Button.scss */
-.wk-button-disabled {
+.button-disabled {
   background-color: #adabab !important;
 }
 /* line 50, ../../sass/var/button/Button.scss */
-.wk-button-disabled:hover {
+.button-disabled:hover {
   background-color: #a5a3a3;
 }
 

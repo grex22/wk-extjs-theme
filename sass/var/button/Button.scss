@@ -33,19 +33,19 @@ $button-default-background-gradient-disabled-over: $buttonbg;
 $button-default-background-color: $buttonbg;
 $button-default-background-color-over: darken($buttonbg,2);
 
-.wk-button-confirm{
+.button-confirm{
   background-color: $confirmbuttonbg !important;
   &:hover{
     background-color: darken($confirmbuttonbg,3);
   }
 }
-.wk-button-warning{
+.button-warning{
   background-color: $warningbuttonbg !important;
   &:hover{
     background-color: darken($warningbuttonbg,3) !important;
   }
 }
-.wk-button-disabled{
+.button-disabled{
   background-color: $disabledbuttonbg !important;
   &:hover{
     background-color: darken($disabledbuttonbg,3);
